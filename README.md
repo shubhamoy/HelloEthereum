@@ -30,3 +30,6 @@ It is the simplest implementation of Smart Contract to get a quick hands-on with
 # Troubleshoot
 1. If you are unable to connect to Ganache, then after running Ganache check for the host and port. In case, it isn't running on `http://localhost:7545` then update the `truffle.js` file with the new host and port details.
 2. For any other problem, please raise an issue.
+
+# Contact
+me[at]shubhamoy[dot]com
