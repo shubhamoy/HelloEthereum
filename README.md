@@ -5,7 +5,7 @@ It is the simplest implementation of Smart Contract to get a quick hands-on with
   - Visualise everything using Ganache
 
 # Dedicated
-![Facebook Developer Circles](https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/xpIVsXucFJ_.png)
+![Facebook Developer Circles](fdc_logo.jpg)
 This repo is dedicated to all the members of Facebook Developer Circles, Delhi.
 
 # How to begin?
