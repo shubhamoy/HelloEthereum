@@ -6,6 +6,7 @@ It is the simplest implementation of Smart Contract to get a quick hands-on with
 
 # Dedicated
 ![Facebook Developer Circles](fdc_logo.jpg)
+
 This repo is dedicated to all the members of Facebook Developer Circles, Delhi.
 
 # How to begin?
