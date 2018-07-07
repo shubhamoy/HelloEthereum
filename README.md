@@ -26,3 +26,7 @@ It is the simplest implementation of Smart Contract to get a quick hands-on with
 # Testing the Smart Contract
 1. Test Cases `./test/Election_Test.js`
 2. Test the contract ```$>truffle test --network ganache```
+
+# Troubleshoot
+1. If you are unable to connect to Ganache, then after running Ganache check for the host and port. In case, it isn't running on `http://localhost:7545` then update the `truffle.js` file with the new host and port details.
+2. For any other problem, please raise an issue.
