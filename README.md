@@ -4,6 +4,10 @@ It is the simplest implementation of Smart Contract to get a quick hands-on with
   - Test the smart contract
   - Visualise everything using Ganache
 
+# Dedicated
+![Facebook Developer Circles](https://scontent.fdel12-1.fna.fbcdn.net/v/t39.2365-6/16685755_1355523501179205_4279653070415069184_n.png?_nc_cat=0&oh=9e39831963c06c5dd6e05d0bc34e698f&oe=5BE9B42D)
+This repo is dedicated to all the members of Facebook Developer Circles, Delhi.
+
 # How to begin?
 1. Install truffle
 ```$> npm install -g truffle```
