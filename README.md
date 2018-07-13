@@ -14,11 +14,10 @@ This repo is dedicated to all the members of Facebook Developer Circles, Delhi.
 ```$> npm install -g truffle```
 2. Download ganache from (https://truffleframework.com/ganache)
 3. Run `Ganache`
-4. Install MetaMask Browser Extension (https://metamask.io)
-5. Clone this repo
+4. Clone this repo
 ```$> git clone https://github.com/shubhamoy/HelloEthereum```
-6. ```$> truffle migrate --network ganache```
-7. After completion of the above command, switch to `Ganache` and it should show the contract creation and contract calls.
+5. ```$> truffle migrate --network ganache```
+6. After completion of the above command, switch to `Ganache` and it should show the contract creation and contract calls.
 
 # Interact with the Smart Contract
 1. Open Truffle Console and connect it to `Ganache` ```$> truffle console --network ganache```
