@@ -23,17 +23,18 @@ This repo is dedicated to all the members of Facebook Developer Circles, Delhi.
 1. Open Truffle Console and connect it to `Ganache` ```$> truffle console --network ganache```
 2. Create instance of the smart contract
 ```truffle(ganache)> Election.deployed().then((instance) => { app=instance })```
-3. Get the vote count ```truffle(ganache)> app.count()```
+3. Get the vote count ```truffle(ganache)> app.count.call().then(count => count.toNumber())```
 4. Call the upvote method ```truffle(ganache)> app.upvote({from: web3.eth.accounts[1]})```
 5. Call the upvote method ```truffle(ganache)> app.upvote({from: web3.eth.accounts[2]})```
-6. Finally, check the vote count value ```truffle(ganache)> app.count()```
+6. Finally, check the vote count value ```truffle(ganache)> app.count.call().then(count => count.toNumber())```
 
 # Testing the Smart Contract
 1. Test Cases `./test/Election_Test.js`
 2. Test the contract ```$>truffle test --network ganache```
 
 # Troubleshoot
-1. If you are unable to connect to Ganache, then after running Ganache check for the host and port. In case, it isn't running on `http://localhost:7545` then update the `truffle.js` file with the new host and port details.
+1. If you are unable to connect to Ganache, then after running Ganache check for the host and port. 
+In case, it isn't running on `http://localhost:7545` then update the `truffle.js` file with the new host and port details.
 2. For any other problem, please raise an issue.
 
 # Contact
